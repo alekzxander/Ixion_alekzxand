@@ -1,0 +1,81 @@
+
+.up	{ height: 140px;border-bottom: solid 1px; box-shadow: 2px 1px 1px #A5A29D;
+text-align: center; color: #A5A29D; }
+.title { display:inline-block;}
+.up .btn-primary { background-color: rgb(204,164,27); }
+
+
+.appli { height: 50px; border: solid 1px  #A5A29D; margin-top: 20px; }
+.appli i { border-right: solid 1px grey; color: #A5A29D; padding:18px; height: 50px; }
+
+.appli i:hover { color:rgb(204,164,27) ;}
+
+.fa-search { margin-left: 900px; border-right: 1px solid grey; }
+
+
+/*
+    font-family: 'Bitter', serif;
+
+    font-family: 'Sarala', sans-serif;
+*/
+
+
+ul li { list-style: none; }
+.btn-warning { background-color: #45ace8; font-family: 'Bitter', serif;  }
+/*Positionnement des images font-awsemone*/
+.appli { display: flex; }
+
+.logo { display: flex; }
+.fa a { color: red; }
+
+/*Ajout de l'image de fond dans le header*/
+header .container { background: url(img/banier.jpg) no-repeat; 
+	height: 450px;
+background-size: cover;  }
+
+header h2 { color: white; margin-top: 24%; font-size: 39px; }	
+
+/*Changement dimension et couleur du bouton*/
+header .btn-primary { background-color: rgb(204,164,27);
+ border-color: rgb(204,164,27); width: 240px;
+  border-radius: 0px 0px 0px; height: 40px;
+  font-size: 19px; font-family: Arial; font-family: 'Bitter', serif;
+}
+.navbar-default { background-color: white; border: none; margin-top: 27px;}
+.navbar-default ul li a { color: red; }
+/*Ajout d'un filtre pour les images*/
+.row img {
+	width: 350px;
+	height: 200px;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+    filter: brightness(70%);
+     -webkit-filter: brightness(60%);
+        -moz-filter: brightness(60%);
+        -o-filter: brightness(60%);
+        -ms-filter: brightness(60%);
+}
+.row img:hover {
+	filter: brightness(100%);
+     -webkit-filter: brightness(100%);
+        -moz-filter: brightness(100%);
+        -o-filter: brightness(100%);
+        -ms-filter: brightness(100%);
+}
+
+.row { margin-left: 0px; }
+
+/*Dimension du aside*/
+aside { width: 250px; height: 400px; padding: 40px; background-color: #F2F0EB; }
+
+/*Design de la barre de rechercher*/
+.search { background-color: #F2F0EB; width: 250px;height: 70px; margin-top: 30px; padding: 20px;}
+
+
+
+
+
+
+
+
