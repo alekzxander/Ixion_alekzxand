@@ -1,6 +1,6 @@
 
 .up	{ height: 140px;border-bottom: solid 1px; box-shadow: 2px 1px 1px #A5A29D;
-text-align: center; color: #A5A29D; }
+text-align: center; color: #A5A29D;font-family: 'Bitter', serif; }
 .title { display:inline-block;}
 .up .btn-primary { background-color: rgb(204,164,27); }
 
@@ -9,9 +9,9 @@ text-align: center; color: #A5A29D; }
 .appli i { border-right: solid 1px grey; color: #A5A29D; padding:18px; height: 50px; }
 
 .appli i:hover { color:rgb(204,164,27) ;}
-
+/* Decalement du i search*/
 .fa-search { margin-left: 900px; border-right: 1px solid grey; }
-
+body { font-family: 'Sarala', sans-serif;  }
 
 /*
     font-family: 'Bitter', serif;
@@ -29,7 +29,7 @@ ul li { list-style: none; }
 .fa a { color: red; }
 
 /*Ajout de l'image de fond dans le header*/
-header .container { background: url(img/banier.jpg) no-repeat; 
+header .container { background: url(../img/banier.jpg) no-repeat; 
 	height: 450px;
 background-size: cover;  }
 
